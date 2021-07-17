@@ -1,18 +1,10 @@
-import time
-
 import pytest
 
 from pages.add_computer_page import AddComputerPage
 from pages.home_page import ComputerDatabaseHomePage
 
 
-# base_url = "http://computer-database.herokuapp.com/computers"
-# add_computer_url = "http://computer-database.herokuapp.com/computers/new"
-# home_page_title = "Computers database"
-# expected_success_message = "Done! Computer Anna K has been created"
-
-
-@pytest.mark.regressiontest5
+@pytest.mark.regressiontest8
 def test_add_computer_navigation(browser):
     # Create an instance of ComputerDatabaseHomePage
     home_page = ComputerDatabaseHomePage(browser)
@@ -31,17 +23,9 @@ def test_add_computer_navigation(browser):
     # Verify "Add a computer" heading is displayed
     add_page.assert_page_heading_is_displayed()
 
-    #
     add_page.enter_value_in_input_field(add_page.COMPUTER_NAME, "Anna K")
     add_page.enter_value_in_input_field(add_page.INTRODUCED, "2021-01-01")
     add_page.enter_value_in_input_field(add_page.DISCONTINUED, "2021-01-01")
     add_page.select_value_from_dropdown("Apple Inc.")
-    time.sleep(5)
-    add_page.click_create_computer_button()
-    home_page.assert_success_message(home_page.SUCCESS_MESSAGE_TEXT)
-
-    # company_dropdown = Select(browser.find_element_by_id("company"))
-    # company_dropdown.select_by_visible_text("Apple Inc.")
-    # success_message = browser.find_element_by_xpath("//div[@class='alert-message warning']")
-    # assert success_message.text == expected_success_message
-    # print(success_message.text)
+    add_page.click_cancel_button()
+    home_page.assert_message_is_not_displayed()

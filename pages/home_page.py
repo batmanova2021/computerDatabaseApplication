@@ -1,3 +1,4 @@
+from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.common.by import By
 
 
@@ -9,11 +10,17 @@ class ComputerDatabaseHomePage:
     # CONSTANTS
     HOME_PAGE_URL = "http://computer-database.herokuapp.com/computers"
     HOME_PAGE_TITLE = "Computers database"
-    SUCCESS_MESSAGE = "Done! Computer Anna K has been created"
+    SUCCESS_MESSAGE_TEXT = "Done! Computer Anna K has been created"
+    UPDATE_MESSAGE_TEXT = "Done! Computer Anna K2 has been updated"
+    DELETE_MESSAGE_TEXT = "Done! Computer has been deleted"
+
 
     # Locators
     NEW_COMPUTER_BUTTON = (By.ID, "add")
     MESSAGE = (By.XPATH, "//div[@class='alert-message warning']")
+    SEARCH_FIELD = (By.ID,"searchbox")
+    FILTER_BUTTON = (By.ID,"searchsubmit")
+
 
 
     # Methods
@@ -32,6 +39,24 @@ class ComputerDatabaseHomePage:
         new_computer_button = self.browser.find_element(*self.NEW_COMPUTER_BUTTON)
         new_computer_button.click()
 
-    def assert_success_message(self):
+    def assert_success_message(self, message):
         validation_message = self.browser.find_element(*self.MESSAGE)
-        assert validation_message.text == self.SUCCESS_MESSAGE
+        assert validation_message.text == message
+
+    def search_my_computer(self,item):
+        search_field = self.browser.find_element(*self.SEARCH_FIELD)
+        search_field.send_keys(item)
+        filter_button = self.browser.find_element(*self.FILTER_BUTTON)
+        filter_button.click()
+
+    def click_computer_name(self,link):
+        computer_link = self.browser.find_element(By.LINK_TEXT,link)
+        computer_link.click()
+
+    def assert_message_is_not_displayed(self):
+        try:
+            validation_message = self.browser.find_element(*self.MESSAGE)
+        except NoSuchElementException:
+            return True
+
+

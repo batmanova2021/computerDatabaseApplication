@@ -1,3 +1,7 @@
+"""
+This is an example of TestUtils class with methods to create, delete computer etc.
+"""
+
 from pages.add_computer_page import AddComputerPage
 from pages.edit_computer_page import EditComputerPage
 from pages.home_page import ComputerDatabaseHomePage
@@ -8,6 +12,7 @@ class TestUtils:
     def __init__(self, browser):
         self.browser = browser
 
+    # static method to create computer and verify it was created
     @staticmethod
     def create_computer_and_verify(browser, computer_name, date_intro, date_disc, company_name):
         # Create an instance of ComputerDatabaseHomePage
@@ -39,6 +44,7 @@ class TestUtils:
         # Assert "Done! Computer Anna K has been created" is displayed
         home_page.assert_success_message(home_page.SUCCESS_MESSAGE_TEXT)
 
+    # static method to delete computer and verify it was deleted
     @staticmethod
     def delete_computer_by_name_and_verify(browser, computer_name):
         # Create an instance of ComputerDatabaseHomePage

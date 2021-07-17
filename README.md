@@ -11,7 +11,8 @@ for your corresponding Chrome browser installed and corresponding OS.
 **Minimum requirements for Windows users:**
 1. Chrome browser installed. https://www.google.com/chrome/
 2. Python installed. https://www.python.org/downloads/
-3. pip installed. (will be automatically installed with Python) 
+3. pip installed. (will be automatically installed with Python)
+4. PyCharm Community Edition installed. https://www.jetbrains.com/pycharm/download/#section=windows  
 
 How to check if **Python** is installed:
 1. Open cmd or powershell 

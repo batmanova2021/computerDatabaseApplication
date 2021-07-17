@@ -5,18 +5,13 @@ from pages.edit_computer_page import EditComputerPage
 from pages.home_page import ComputerDatabaseHomePage
 
 
-# base_url = "http://computer-database.herokuapp.com/computers"
-# add_computer_url = "http://computer-database.herokuapp.com/computers/new"
-# home_page_title = "Computers database"
-# expected_success_message = "Done! Computer Anna K has been created"
-
-
-@pytest.mark.regressiontest6
+@pytest.mark.regressiontest
 def test_update_computer(browser):
     # Create an instance of ComputerDatabaseHomePage
     home_page = ComputerDatabaseHomePage(browser)
     # Create an instance of AddComputerPage
     add_page = AddComputerPage(browser)
+    # Create an instance of EditComputerPage
     edit_page = EditComputerPage(browser)
     # Navigate to Computer Database App Home Page
     home_page.open_home_page()
@@ -43,6 +38,7 @@ def test_update_computer(browser):
     add_page.click_create_computer_button()
     # Assert "Done! Computer Anna K has been created" is displayed
     home_page.assert_success_message(home_page.SUCCESS_MESSAGE_TEXT)
+
     # Search for Computer with name "Anna K"
     home_page.search_my_computer("Anna K")
     # Click on "Anna K" computer
@@ -60,7 +56,7 @@ def test_update_computer(browser):
     # Assert "Done! Computer Anna K has been updated" is displayed
     home_page.assert_success_message(home_page.UPDATE_MESSAGE_TEXT)
 
-    # Search for Computer with name "Anna K"
+    # Search for Computer with name "Anna K2"
     home_page.search_my_computer("Anna K2")
     # Click on "Anna K2" computer
     home_page.click_computer_name("Anna K2")
@@ -68,6 +64,7 @@ def test_update_computer(browser):
     edit_page.click_delete_button()
     # Assert "Done! Computer has been deleted" is displayed
     home_page.assert_success_message(home_page.DELETE_MESSAGE_TEXT)
-
-
-
+    # Search for computer name "Anna K2"
+    home_page.search_my_computer("Anna K2")
+    # Assert "No results to display" message is displayed
+    home_page.assert_computer_does_not_exist()

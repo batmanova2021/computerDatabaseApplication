@@ -70,6 +70,11 @@ runConfigurations will be automatically picked up by PyCharm.
 5. Select **"Run Allure Reports"** from "run/debug Configuration" dropdown. It is executing bat file with "allure serve reports" command. Optionally you can execute this command manually in terminal.[![image.png](https://i.postimg.cc/6QYw7Vnv/image.png)](https://postimg.cc/d7kgpyWs)
 6. **Allure Reports** will open in a default browser [![image.png](https://i.postimg.cc/ht0hrdVS/image.png)](https://postimg.cc/FY79F1Pq)
 7. You can check specific test and see the screenshot at the teardown [![image.png](https://i.postimg.cc/J7BnFgjY/image.png)](https://postimg.cc/dDwwk5HG) 
- 
+
+**(Optional):**
+1. You can run "Generate HTML Report and Open" from "run/debug Configurations".
+2. New folder "allure-reports" will be generated inside tests folder and allure will open report in a default browser.
+3. index.html file will be generated which you can open in any browser. [![image.png](https://i.postimg.cc/Mp4PTvrY/image.png)](https://postimg.cc/G4FJghRB)
+
 
 

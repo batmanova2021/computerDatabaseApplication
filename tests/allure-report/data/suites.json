@@ -1,0 +1,73 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "test_add_computer",
+    "children" : [ {
+      "name" : "test_add_computer",
+      "uid" : "205bf523b2960015",
+      "parentUid" : "29d3c67cbfa7cadadb25045c22efc219",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626557259486,
+        "stop" : 1626557262260,
+        "duration" : 2774
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "29d3c67cbfa7cadadb25045c22efc219"
+  }, {
+    "name" : "test_add_computer_navigation",
+    "children" : [ {
+      "name" : "test_add_computer_navigation",
+      "uid" : "515cab691b1b41b7",
+      "parentUid" : "233ab271e8e04ad5597cc81f5a9ed954",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626557267954,
+        "stop" : 1626557268689,
+        "duration" : 735
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "233ab271e8e04ad5597cc81f5a9ed954"
+  }, {
+    "name" : "test_cancel_computer",
+    "children" : [ {
+      "name" : "test_add_computer_navigation",
+      "uid" : "3ae0154da19d50ec",
+      "parentUid" : "37f38c4e70f522733fbee6b5c954d346",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626557273458,
+        "stop" : 1626557285101,
+        "duration" : 11643
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "37f38c4e70f522733fbee6b5c954d346"
+  }, {
+    "name" : "test_update_and_delete_computer",
+    "children" : [ {
+      "name" : "test_update_and_delete_computer",
+      "uid" : "3399aa0c9a367471",
+      "parentUid" : "1fec48d46ed146e3d76c2d8e506c26cb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626557289497,
+        "stop" : 1626557293699,
+        "duration" : 4202
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "1fec48d46ed146e3d76c2d8e506c26cb"
+  } ]
+}

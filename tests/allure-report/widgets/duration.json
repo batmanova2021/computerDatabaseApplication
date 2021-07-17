@@ -1,0 +1,41 @@
+[ {
+  "uid" : "3399aa0c9a367471",
+  "name" : "test_update_and_delete_computer",
+  "time" : {
+    "start" : 1626557289497,
+    "stop" : 1626557293699,
+    "duration" : 4202
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "515cab691b1b41b7",
+  "name" : "test_add_computer_navigation",
+  "time" : {
+    "start" : 1626557267954,
+    "stop" : 1626557268689,
+    "duration" : 735
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "205bf523b2960015",
+  "name" : "test_add_computer",
+  "time" : {
+    "start" : 1626557259486,
+    "stop" : 1626557262260,
+    "duration" : 2774
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3ae0154da19d50ec",
+  "name" : "test_add_computer_navigation",
+  "time" : {
+    "start" : 1626557273458,
+    "stop" : 1626557285101,
+    "duration" : 11643
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

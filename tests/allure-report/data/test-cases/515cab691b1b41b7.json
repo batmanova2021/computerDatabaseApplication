@@ -1,0 +1,111 @@
+{
+  "uid" : "515cab691b1b41b7",
+  "name" : "test_add_computer_navigation",
+  "fullName" : "test_add_computer_navigation#test_add_computer_navigation",
+  "historyId" : "9d381592f051e49bc6a59e1312b69432",
+  "time" : {
+    "start" : 1626557267954,
+    "stop" : 1626557268689,
+    "duration" : 735
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "browser",
+    "time" : {
+      "start" : 1626557266023,
+      "stop" : 1626557267950,
+      "duration" : 1927
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "f8e8311e21ca0b56",
+      "name" : "log",
+      "source" : "f8e8311e21ca0b56.txt",
+      "type" : "text/plain",
+      "size" : 348
+    }, {
+      "uid" : "3798f7e2e59aab30",
+      "name" : "stderr",
+      "source" : "3798f7e2e59aab30.txt",
+      "type" : "text/plain",
+      "size" : 219
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "browser::0",
+    "time" : {
+      "start" : 1626557268690,
+      "stop" : 1626557271625,
+      "duration" : 2935
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "f681a6e299e50578",
+      "name" : "Screenshot",
+      "source" : "f681a6e299e50578.png",
+      "type" : "image/png",
+      "size" : 41000
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "smoketest"
+  }, {
+    "name" : "suite",
+    "value" : "test_add_computer_navigation"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-NIGLV0U"
+  }, {
+    "name" : "thread",
+    "value" : "22668-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_add_computer_navigation"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "smoketest" ]
+  },
+  "source" : "515cab691b1b41b7.json",
+  "parameterValues" : [ ]
+}

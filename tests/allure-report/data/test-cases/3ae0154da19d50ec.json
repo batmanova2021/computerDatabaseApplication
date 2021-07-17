@@ -1,0 +1,111 @@
+{
+  "uid" : "3ae0154da19d50ec",
+  "name" : "test_add_computer_navigation",
+  "fullName" : "test_cancel_computer#test_add_computer_navigation",
+  "historyId" : "b4d7c6babd52856e57774b5fb680a66e",
+  "time" : {
+    "start" : 1626557273458,
+    "stop" : 1626557285101,
+    "duration" : 11643
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "browser",
+    "time" : {
+      "start" : 1626557271641,
+      "stop" : 1626557273456,
+      "duration" : 1815
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "3dc75768cd1a0c9a",
+      "name" : "log",
+      "source" : "3dc75768cd1a0c9a.txt",
+      "type" : "text/plain",
+      "size" : 348
+    }, {
+      "uid" : "d04933c23351142d",
+      "name" : "stderr",
+      "source" : "d04933c23351142d.txt",
+      "type" : "text/plain",
+      "size" : 219
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "browser::0",
+    "time" : {
+      "start" : 1626557285102,
+      "stop" : 1626557287624,
+      "duration" : 2522
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "7c5813d7bc0cbf30",
+      "name" : "Screenshot",
+      "source" : "7c5813d7bc0cbf30.png",
+      "type" : "image/png",
+      "size" : 34748
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "regressiontest"
+  }, {
+    "name" : "suite",
+    "value" : "test_cancel_computer"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-NIGLV0U"
+  }, {
+    "name" : "thread",
+    "value" : "22668-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_cancel_computer"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "regressiontest" ]
+  },
+  "source" : "3ae0154da19d50ec.json",
+  "parameterValues" : [ ]
+}

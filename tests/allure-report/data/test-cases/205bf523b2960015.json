@@ -1,0 +1,123 @@
+{
+  "uid" : "205bf523b2960015",
+  "name" : "test_add_computer",
+  "fullName" : "test_add_computer#test_add_computer",
+  "historyId" : "a47eec47c0f4a638aafaa6c8cf6e5c58",
+  "time" : {
+    "start" : 1626557259486,
+    "stop" : 1626557262260,
+    "duration" : 2774
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "browser",
+    "time" : {
+      "start" : 1626557257153,
+      "stop" : 1626557259483,
+      "duration" : 2330
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "3bac3cae68fd51d2",
+      "name" : "Screenshot",
+      "source" : "3bac3cae68fd51d2.png",
+      "type" : "image/png",
+      "size" : 65345
+    }, {
+      "uid" : "3318cd9a600bf266",
+      "name" : "Screenshot",
+      "source" : "3318cd9a600bf266.png",
+      "type" : "image/png",
+      "size" : 64372
+    }, {
+      "uid" : "ecdb422525475ed6",
+      "name" : "log",
+      "source" : "ecdb422525475ed6.txt",
+      "type" : "text/plain",
+      "size" : 348
+    }, {
+      "uid" : "7d6875bc955a0da8",
+      "name" : "stderr",
+      "source" : "7d6875bc955a0da8.txt",
+      "type" : "text/plain",
+      "size" : 219
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "browser::0",
+    "time" : {
+      "start" : 1626557262260,
+      "stop" : 1626557265985,
+      "duration" : 3725
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "b3aebc480385271d",
+      "name" : "Screenshot",
+      "source" : "b3aebc480385271d.png",
+      "type" : "image/png",
+      "size" : 34748
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "regressiontest"
+  }, {
+    "name" : "suite",
+    "value" : "test_add_computer"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-NIGLV0U"
+  }, {
+    "name" : "thread",
+    "value" : "22668-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_add_computer"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "regressiontest" ]
+  },
+  "source" : "205bf523b2960015.json",
+  "parameterValues" : [ ]
+}

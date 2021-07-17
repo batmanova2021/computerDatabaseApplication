@@ -1,0 +1,5 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sat Jul 17 17:28:09 EDT 2021","Sat Jul 17 17:28:13 EDT 2021","4202","","test_update_and_delete_computer","","","","test_update_and_delete_computer",""
+"passed","Sat Jul 17 17:27:47 EDT 2021","Sat Jul 17 17:27:48 EDT 2021","735","","test_add_computer_navigation","","","","test_add_computer_navigation",""
+"passed","Sat Jul 17 17:27:39 EDT 2021","Sat Jul 17 17:27:42 EDT 2021","2774","","test_add_computer","","","","test_add_computer",""
+"passed","Sat Jul 17 17:27:53 EDT 2021","Sat Jul 17 17:28:05 EDT 2021","11643","","test_cancel_computer","","","","test_add_computer_navigation",""

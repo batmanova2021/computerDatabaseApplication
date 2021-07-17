@@ -7,7 +7,7 @@ from tests.test_utils import TestUtils
 
 
 @pytest.mark.regressiontest
-def test_update_computer(browser):
+def test_update_and_delete_computer(browser):
     # Create an instance of ComputerDatabaseHomePage
     home_page = ComputerDatabaseHomePage(browser)
     # Create an instance of AddComputerPage

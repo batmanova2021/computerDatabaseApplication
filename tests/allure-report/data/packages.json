@@ -1,0 +1,73 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "test_add_computer",
+    "children" : [ {
+      "name" : "test_add_computer",
+      "uid" : "205bf523b2960015",
+      "parentUid" : "a71aa4d80cc32cbb3edc54059b13a01a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626557259486,
+        "stop" : 1626557262260,
+        "duration" : 2774
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "a71aa4d80cc32cbb3edc54059b13a01a"
+  }, {
+    "name" : "test_add_computer_navigation",
+    "children" : [ {
+      "name" : "test_add_computer_navigation",
+      "uid" : "515cab691b1b41b7",
+      "parentUid" : "0096381dfb8991b0efb64518040cfdf4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626557267954,
+        "stop" : 1626557268689,
+        "duration" : 735
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "0096381dfb8991b0efb64518040cfdf4"
+  }, {
+    "name" : "test_cancel_computer",
+    "children" : [ {
+      "name" : "test_add_computer_navigation",
+      "uid" : "3ae0154da19d50ec",
+      "parentUid" : "d5ee3029a2cb37c854d332b531613f55",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626557273458,
+        "stop" : 1626557285101,
+        "duration" : 11643
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "d5ee3029a2cb37c854d332b531613f55"
+  }, {
+    "name" : "test_update_and_delete_computer",
+    "children" : [ {
+      "name" : "test_update_and_delete_computer",
+      "uid" : "3399aa0c9a367471",
+      "parentUid" : "a6c16fa6fe1aea07190f287af9ad3ada",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626557289497,
+        "stop" : 1626557293699,
+        "duration" : 4202
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "a6c16fa6fe1aea07190f287af9ad3ada"
+  } ]
+}

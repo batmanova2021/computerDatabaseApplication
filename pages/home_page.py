@@ -1,3 +1,5 @@
+import allure
+from allure_commons.types import AttachmentType
 from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.common.by import By
 
@@ -41,6 +43,7 @@ class ComputerDatabaseHomePage:
     def assert_success_message(self, message):
         validation_message = self.browser.find_element(*self.MESSAGE)
         assert validation_message.text == message
+        allure.attach(self.browser.get_screenshot_as_png(), name="Screenshot", attachment_type=AttachmentType.PNG)
 
     def search_my_computer(self, item):
         search_field = self.browser.find_element(*self.SEARCH_FIELD)

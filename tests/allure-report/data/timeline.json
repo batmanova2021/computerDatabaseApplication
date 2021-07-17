@@ -1,0 +1,65 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-NIGLV0U",
+    "children" : [ {
+      "name" : "22668-MainThread",
+      "children" : [ {
+        "name" : "test_add_computer_navigation",
+        "uid" : "3ae0154da19d50ec",
+        "parentUid" : "db7fed2f4d672531f2830f74ac9faf76",
+        "status" : "passed",
+        "time" : {
+          "start" : 1626557273458,
+          "stop" : 1626557285101,
+          "duration" : 11643
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_update_and_delete_computer",
+        "uid" : "3399aa0c9a367471",
+        "parentUid" : "db7fed2f4d672531f2830f74ac9faf76",
+        "status" : "passed",
+        "time" : {
+          "start" : 1626557289497,
+          "stop" : 1626557293699,
+          "duration" : 4202
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_add_computer",
+        "uid" : "205bf523b2960015",
+        "parentUid" : "db7fed2f4d672531f2830f74ac9faf76",
+        "status" : "passed",
+        "time" : {
+          "start" : 1626557259486,
+          "stop" : 1626557262260,
+          "duration" : 2774
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_add_computer_navigation",
+        "uid" : "515cab691b1b41b7",
+        "parentUid" : "db7fed2f4d672531f2830f74ac9faf76",
+        "status" : "passed",
+        "time" : {
+          "start" : 1626557267954,
+          "stop" : 1626557268689,
+          "duration" : 735
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "db7fed2f4d672531f2830f74ac9faf76"
+    } ],
+    "uid" : "9127b715562c6ee6cd3e30247fec888a"
+  } ]
+}

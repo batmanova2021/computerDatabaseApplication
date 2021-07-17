@@ -3,6 +3,7 @@ import pytest
 from pages.add_computer_page import AddComputerPage
 from pages.edit_computer_page import EditComputerPage
 from pages.home_page import ComputerDatabaseHomePage
+from tests.test_utils import TestUtils
 
 
 @pytest.mark.regressiontest
@@ -13,31 +14,8 @@ def test_update_computer(browser):
     add_page = AddComputerPage(browser)
     # Create an instance of EditComputerPage
     edit_page = EditComputerPage(browser)
-    # Navigate to Computer Database App Home Page
-    home_page.open_home_page()
-    # Verify Home Page title
-    home_page.assert_home_page_title()
-    # Verify Add New Computer button is displayed
-    home_page.add_button_is_displayed()
-    # Click on Add New Computer button
-    home_page.click_add_new_computer_button()
-    # Verify user was navigated to the Add Computer page URL
-    add_page.assert_add_page_url()
-    # Verify "Add a computer" heading is displayed
-    add_page.assert_page_heading_is_displayed()
-
-    # Enter "Anna K" in the Computer Name field
-    add_page.enter_value_in_input_field(add_page.COMPUTER_NAME, "Anna K")
-    # Enter "2021-01-01" in the Introduced field
-    add_page.enter_value_in_input_field(add_page.INTRODUCED, "2021-01-01")
-    # Enter "2021-01-01" in the Discontinued field
-    add_page.enter_value_in_input_field(add_page.DISCONTINUED, "2021-01-01")
-    # Select "Apple Inc." from drop down in Company field
-    add_page.select_value_from_dropdown("Apple Inc.")
-    # Click "Create this computer" button
-    add_page.click_create_computer_button()
-    # Assert "Done! Computer Anna K has been created" is displayed
-    home_page.assert_success_message(home_page.SUCCESS_MESSAGE_TEXT)
+    # create computer and verify using TestUtils
+    TestUtils.create_computer_and_verify(browser, "Anna K", "2018-01-01", "2021-01-01", "Apple Inc.")
 
     # Search for Computer with name "Anna K"
     home_page.search_my_computer("Anna K")

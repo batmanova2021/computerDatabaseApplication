@@ -37,4 +37,4 @@ def test_add_computer(browser):
     home_page.assert_success_message(home_page.SUCCESS_MESSAGE_TEXT)
 
     # cleanup. Delete computer "Anna K"
-    TestUtils.delete_computer_by_name(browser, "Anna K")
+    TestUtils.delete_computer_by_name_and_verify(browser, "Anna K")

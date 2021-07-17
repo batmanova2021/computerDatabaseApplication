@@ -9,7 +9,7 @@ class TestUtils:
         self.browser = browser
 
     @staticmethod
-    def create_computer(browser, computer_name, date_intro, date_disc, company_name):
+    def create_computer_and_verify(browser, computer_name, date_intro, date_disc, company_name):
         # Create an instance of ComputerDatabaseHomePage
         home_page = ComputerDatabaseHomePage(browser)
         # Create an instance of AddComputerPage
@@ -40,7 +40,7 @@ class TestUtils:
         home_page.assert_success_message(home_page.SUCCESS_MESSAGE_TEXT)
 
     @staticmethod
-    def delete_computer_by_name(browser, computer_name):
+    def delete_computer_by_name_and_verify(browser, computer_name):
         # Create an instance of ComputerDatabaseHomePage
         home_page = ComputerDatabaseHomePage(browser)
         # Create an instance of AddComputerPage

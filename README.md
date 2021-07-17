@@ -23,16 +23,16 @@ runConfigurations will be automatically picked up by PyCharm.
 
 **Allure installation** (required for reports):
 1. Install **scoop** using instructions here https://scoop.sh/
-2. Execute **scoop install allure** in the powershell 
+2. Execute **scoop install allure** in the powershell. 
 3. Download and extract JDK on your computer (JDK 11 was used for this project) https://www.oracle.com/java/technologies/javase-jdk11-downloads.html
 4. Click on Windows icon and type env, click on "Edit the system environment variables".
-5. Click on "Environment variables"
-6. In System Variables click on "New" button
+5. Click on "Environment variables".
+6. In System Variables click on "New" button.
 7. Set Variable name: JAVA_HOME
 8. Click on "Browse Directory" and locate your JDK folder (for example C:\annbat\Downloads\jdk-11.0.11)
 
 *(Optional)* How to check if **Python** is installed:
-1. Open cmd or powershell 
+1. Open cmd or powershell.
 2. Execute the following command: **python --version**
 3. You should see output similar to this [![image.png](https://i.postimg.cc/NF071Q3G/image.png)](https://postimg.cc/sQthzCfb)
 
@@ -44,7 +44,7 @@ runConfigurations will be automatically picked up by PyCharm.
 3. Click on "VCS" -> Enable VCS integration.
 4. Make sure "Git" is selected as a VCS and press OK.
 5. Click on "VCS" -> Git -> Clone.
-6. Paste the link to the repository and click on "Clone" button
+6. Paste the link to the repository and click on "Clone" button.
 7. Click on "Open in a new window" button.
 8. Your computerDatabaseProject will open in a new window.
 9. PyCharm will automatically detect requirements.txt and will ask you to import and install all dependencies, click on OK. Wait until all dependencies will be installed.

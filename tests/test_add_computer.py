@@ -2,6 +2,7 @@ import pytest
 
 from pages.add_computer_page import AddComputerPage
 from pages.home_page import ComputerDatabaseHomePage
+from tests.test_utils import TestUtils
 
 
 @pytest.mark.regressiontest
@@ -34,3 +35,6 @@ def test_add_computer(browser):
     add_page.click_create_computer_button()
     # Assert "Done! Computer Anna K has been created" is displayed
     home_page.assert_success_message(home_page.SUCCESS_MESSAGE_TEXT)
+
+    # cleanup. Delete computer "Anna K"
+    TestUtils.delete_computer_by_name(browser, "Anna K")

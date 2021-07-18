@@ -78,7 +78,17 @@ runConfigurations will be automatically picked up by PyCharm.
 
 **Video example** of framework brief overview, execution of all tests and running Allure reports:
 
+*Success run:*
+
 https://user-images.githubusercontent.com/77853837/126051791-7ada915e-a607-476f-aed0-fd43d1afabd6.mp4
+
+*Execution with skipped test:*
+
+https://user-images.githubusercontent.com/77853837/126053141-a2cf40c9-77bf-400c-90ca-3b8ece65f11f.mp4
+
+*Execution with failing test due to the defect:*
+
+https://user-images.githubusercontent.com/77853837/126053145-06865642-3c16-4397-b107-83854fc05e9f.mp4
 
 
 

@@ -54,3 +54,5 @@ class AddComputerPage:
     def click_cancel_button(self):
         cancel_button = self.browser.find_element(*self.CANCEL_BUTTON)
         cancel_button.click()
+
+

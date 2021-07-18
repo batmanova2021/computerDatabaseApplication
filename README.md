@@ -76,5 +76,9 @@ runConfigurations will be automatically picked up by PyCharm.
 2. New folder "allure-reports" will be generated inside tests folder and allure will open report in a default browser.
 3. index.html file will be generated which you can open in any browser. [![image.png](https://i.postimg.cc/Mp4PTvrY/image.png)](https://postimg.cc/G4FJghRB)
 
+**Video example** of framework brief overview, execution of all tests and running Allure reports:
+
+https://user-images.githubusercontent.com/77853837/126051791-7ada915e-a607-476f-aed0-fd43d1afabd6.mp4
+
 
 

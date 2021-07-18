@@ -12,6 +12,18 @@ all dependencies which will be picked up by PyCharm automatically.
 
 **runConfigurations** for Smoke Tests, Regression Tests, All Tests and Allure Reports added to the project as files.
 runConfigurations will be automatically picked up by PyCharm.
+
+<hr>
+
+**Project Structure:**
+- pages:  modules / pages Classes for Home Page, Add Page and Edit Page
+- tests:
+    - allure-report (folder with Allure reports and index.html)
+    - reports (json files and attachments, automatically generated after every test run)
+    - conftest.py (shared configuration for all tests)
+    - test_utils (module / Class with shared test setup methods)
+    - allure_generate_html_report.bat and run_allure_reports.bat (to generate and run Allure reports)
+    - test_* modules (tests including smoke and regression tests)
 <hr>
 
 **Requirements for Windows users:**

@@ -5,7 +5,7 @@ from pages.home_page import ComputerDatabaseHomePage
 
 
 @pytest.mark.regressiontest
-def test_add_computer_navigation(browser):
+def test_add_computer_cancel(browser):
     # Create an instance of ComputerDatabaseHomePage
     home_page = ComputerDatabaseHomePage(browser)
     # Create an instance of AddComputerPage
